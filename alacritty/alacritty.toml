@@ -1,0 +1,15 @@
+live_config_reload=true
+import = [
+    "~/.config/alacritty/themes/themes/github_dark_colorblind.toml"
+]
+
+[window]
+padding={x=10,y=10}
+dimensions={columns=100,lines=20}
+
+[font]
+normal={family="Jetbrains Mono Nerd Font"}
+size=10
+
+[cursor]
+style={shape="Beam", blinking="Always"}
